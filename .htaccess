@@ -1,0 +1,12 @@
+# ============================================ #
+# SMART DRIVER - SIMPLE .HTACCESS             #
+# ============================================ #
+
+# Prevent directory listing
+Options -Indexes
+
+# Enable mod_rewrite (if needed)
+RewriteEngine On
+
+# Redirect 404 errors to index.php
+ErrorDocument 404 /smart_driver/index.php
